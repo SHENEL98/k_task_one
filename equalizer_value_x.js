@@ -3,7 +3,9 @@ var output1X = document.getElementById("equalizer_value_1_X");
 output1X.innerHTML = slider1X.value;
 
 slider1X.oninput = function() {
+  debugger;
   output1X.innerHTML = this.value;
+
 }
 
 var slider2X = document.getElementById("point-2-x");

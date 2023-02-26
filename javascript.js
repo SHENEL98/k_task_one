@@ -1,19 +1,17 @@
-
 // Define the X and Y positions for each point in the spider web diagram
-const point1 = [80, 25];
-const point2 = [180, 75];
-const point3 = [140, 5];
 
-const point4 = [255, 30];
-const point5 = [230, 50];
-const point6 = [280, 70];
-const point7 = [240, 85];
-const point8 = [265, 91];
-
-const point9 = [220, 130];
-const point10 = [85, 95];
-const point11 = [60, 90];
-const point12 = [20, 65];
+var point1 = [80, 25];
+var point2 = [180, 75];
+var point3 = [140, 5];
+var point4 = [255, 30];
+var point5 = [230, 50];
+var point6 = [280, 70];
+var point7 = [240, 85];
+var point8 = [265, 91];
+var point9 = [220, 130];
+var point10 = [85, 95];
+var point11 = [60, 90];
+var point12 = [20, 65];
 
 
 // Get the canvas element and context
@@ -213,3 +211,30 @@ function redrawSpiderWeb() {
     ctx.stroke();
 }
 
+function reset() {
+
+    var script1 = document.createElement('script');
+    script1.src = 'equalizer_value_x.js';
+    document.head.appendChild(script1);
+
+    var script2 = document.createElement('script');
+    script2.src = 'equalizer_value_y.js';
+    document.head.appendChild(script2);
+
+
+    point1 = [80, 25];
+    point2 = [180, 75];
+    point3 = [140, 5];
+    point4 = [255, 30];
+    point5 = [230, 50];
+    point6 = [280, 70];
+    point7 = [240, 85];
+    point8 = [265, 91];
+    point9 = [220, 130];
+    point10 = [85, 95];
+    point11 = [60, 90];
+    point12 = [20, 65];
+
+    redrawSpiderWeb();
+
+}

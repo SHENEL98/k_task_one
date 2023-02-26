@@ -17,6 +17,21 @@
             height: 100%;
             border: 1px solid red;
         }
+
+        .point-1-y,
+        .point-2-y,
+        .point-3-y,
+        .point-4-y,
+        .point-5-y,
+        .point-6-y,
+        .point-7-y,
+        .point-8-y,
+        .point-9-y,
+        .point-10-y,
+        .point-11-y,
+        .point-12-y {
+            appearance: slider-vertical;
+        }
     </style>
 </head>
 
@@ -30,16 +45,22 @@
     </script>
 
     <div class=" my-3">
+        <div class="card text-center">
+            <div class="card-header">
+               <h4> Task One - Spider-map powered by equalizer buttons </h4>
+            </div>
+        </div>
+        <br>
         <div class="row">
-            <div class="col-4">
+            <div class="col-sm-6">
                 <canvas id="spider-web"></canvas>
             </div>
-            <div class="col-8">
+            <div class="col-sm-6">
                 <form>
                     <div class="container">
                         <div class="row">
                             <!-- Point 1 -->
-                            <div class="col-4">
+                            <div class="col">
                                 <div class="card">
                                     <div class="row ">
                                         <div class="col-6">
@@ -50,7 +71,8 @@
                                         </div>
                                         <div class="col-6">
                                             <label for="point-1-y">Point 1 Y:</label>
-                                            <input type="range" id="point-1-y" min="0" max="150" value="25"> <br>
+                                            <input type="range" id="point-1-y" class="point-1-y" min="0" max="150"
+                                                value="25"> <br>
                                             <p class="badge badge-dark">Value: <span id="equalizer_value_1_Y"></span>
                                             </p>
 
@@ -59,7 +81,7 @@
                                 </div>
                             </div>
                             <!-- Point 2 -->
-                            <div class="col-4">
+                            <div class="col">
                                 <div class="card">
                                     <div class="row ">
                                         <div class="col-6">
@@ -70,7 +92,8 @@
                                         </div>
                                         <div class="col-6">
                                             <label for="point-2-y">Point 2 Y:</label>
-                                            <input type="range" id="point-2-y" min="0" max="150" value="75"> <br>
+                                            <input type="range" id="point-2-y" class="point-2-y" min="0" max="150"
+                                                value="75"> <br>
                                             <p class="badge badge-dark">Value: <span id="equalizer_value_2_Y"></span>
                                             </p>
                                         </div>
@@ -79,7 +102,7 @@
                             </div>
 
                             <!-- Point 3 -->
-                            <div class="col-4">
+                            <div class="col">
                                 <div class="card">
                                     <div class="row ">
                                         <div class="col-6">
@@ -90,7 +113,8 @@
                                         </div>
                                         <div class="col-6">
                                             <label for="point-3-y">Point 3 Y:</label>
-                                            <input type="range" id="point-3-y" min="0" max="150" value="5"> <br>
+                                            <input type="range" id="point-3-y" class="point-3-y" min="0" max="150"
+                                                value="5"> <br>
                                             <p class="badge badge-dark">Value: <span id="equalizer_value_3_Y"></span>
                                             </p>
                                         </div>
@@ -101,7 +125,7 @@
 
                         <div class="row">
                             <!-- Point 4 -->
-                            <div class="col-4">
+                            <div class="col">
                                 <div class="card">
                                     <div class="row ">
                                         <div class="col-6">
@@ -112,7 +136,8 @@
                                         </div>
                                         <div class="col-6">
                                             <label for="point-4-y">Point 4 Y:</label>
-                                            <input type="range" id="point-4-y" min="0" max="150" value="30"> <br>
+                                            <input type="range" id="point-4-y" class="point-4-y" min="0" max="150"
+                                                value="30"> <br>
                                             <p class="badge badge-dark">Value: <span id="equalizer_value_4_Y"></span>
                                             </p>
                                         </div>
@@ -120,7 +145,7 @@
                                 </div>
                             </div>
                             <!-- Point 5 -->
-                            <div class="col-4">
+                            <div class="col">
                                 <div class="card">
                                     <div class="row ">
                                         <div class="col-6">
@@ -131,7 +156,8 @@
                                         </div>
                                         <div class="col-6">
                                             <label for="point-5-y">Point 5 Y:</label>
-                                            <input type="range" id="point-5-y" min="0" max="150" value="50"> <br>
+                                            <input type="range" id="point-5-y" class="point-5-y" min="0" max="150"
+                                                value="50"> <br>
                                             <p class="badge badge-dark">Value: <span id="equalizer_value_5_Y"></span>
                                             </p>
 
@@ -140,7 +166,7 @@
                                 </div>
                             </div>
                             <!-- Point 6 -->
-                            <div class="col-4">
+                            <div class="col">
                                 <div class="card">
                                     <div class="row ">
                                         <div class="col-6">
@@ -151,7 +177,8 @@
                                         </div>
                                         <div class="col-6">
                                             <label for="point-6-y">Point 6 Y:</label>
-                                            <input type="range" id="point-6-y" min="0" max="150" value="70"> <br>
+                                            <input type="range" id="point-6-y" class="point-6-y" min="0" max="150"
+                                                value="70"> <br>
                                             <p class="badge badge-dark">Value: <span id="equalizer_value_6_Y"></span>
                                             </p>
                                         </div>
@@ -161,7 +188,7 @@
                         </div>
                         <div class="row">
                             <!-- Point 7 -->
-                            <div class="col-4">
+                            <div class="col">
                                 <div class="card">
                                     <div class="row ">
                                         <div class="col-6">
@@ -172,7 +199,8 @@
                                         </div>
                                         <div class="col-6">
                                             <label for="point-7-y">Point 7 Y:</label>
-                                            <input type="range" id="point-7-y" min="0" max="150" value="85"> <br>
+                                            <input type="range" id="point-7-y" class="point-7-y" min="0" max="150"
+                                                value="85"> <br>
                                             <p class="badge badge-dark">Value: <span id="equalizer_value_7_Y"></span>
                                             </p>
                                         </div>
@@ -181,7 +209,7 @@
                             </div>
 
                             <!-- Point 8 -->
-                            <div class="col-4">
+                            <div class="col">
                                 <div class="card">
                                     <div class="row ">
                                         <div class="col-6">
@@ -192,7 +220,8 @@
                                         </div>
                                         <div class="col-6">
                                             <label for="point-8-y">Point 8 Y:</label>
-                                            <input type="range" id="point-8-y" min="0" max="150" value="91"> <br>
+                                            <input type="range" id="point-8-y" class="point-8-y" min="0" max="150"
+                                                value="91"> <br>
                                             <p class="badge badge-dark">Value: <span id="equalizer_value_8_Y"></span>
                                             </p>
                                         </div>
@@ -200,7 +229,7 @@
                                 </div>
                             </div>
                             <!-- Point 9 -->
-                            <div class="col-4">
+                            <div class="col">
                                 <div class="card">
                                     <div class="row ">
                                         <div class="col-6">
@@ -211,7 +240,8 @@
                                         </div>
                                         <div class="col-6">
                                             <label for="point-9-y">Point 9 Y:</label>
-                                            <input type="range" id="point-9-y" min="0" max="150" value="130"> <br>
+                                            <input type="range" id="point-9-y" class="point-9-y" min="0" max="150"
+                                                value="130"> <br>
                                             <p class="badge badge-dark">Value: <span id="equalizer_value_9_Y"></span>
                                             </p>
 
@@ -222,7 +252,7 @@
                         </div>
                         <div class="row">
                             <!-- Point 10 -->
-                            <div class="col-4">
+                            <div class="col">
                                 <div class="card">
                                     <div class="row ">
                                         <div class="col-6">
@@ -233,7 +263,8 @@
                                         </div>
                                         <div class="col-6">
                                             <label for="point-10-y">Point 10 Y:</label>
-                                            <input type="range" id="point-10-y" min="0" max="150" value="95"> <br>
+                                            <input type="range" id="point-10-y" class="point-10-y" min="0" max="150"
+                                                value="95"> <br>
                                             <p class="badge badge-dark">Value: <span id="equalizer_value_10_Y"></span>
                                             </p>
                                         </div>
@@ -241,7 +272,7 @@
                                 </div>
                             </div>
                             <!-- Point 11 -->
-                            <div class="col-4">
+                            <div class="col">
                                 <div class="card">
                                     <div class="row ">
                                         <div class="col-6">
@@ -252,7 +283,8 @@
                                         </div>
                                         <div class="col-6">
                                             <label for="point-11-y">Point 11 Y:</label>
-                                            <input type="range" id="point-11-y" min="0" max="150" value="90"> <br>
+                                            <input type="range" id="point-11-y" class="point-11-y" min="0" max="150"
+                                                value="90"> <br>
                                             <p class="badge badge-dark">Value: <span id="equalizer_value_11_Y"></span>
                                             </p>
                                         </div>
@@ -260,7 +292,7 @@
                                 </div>
                             </div>
                             <!-- Point 12 -->
-                            <div class="col-4">
+                            <div class="col">
                                 <div class="card">
                                     <div class="row ">
                                         <div class="col-6">
@@ -271,7 +303,8 @@
                                         </div>
                                         <div class="col-6">
                                             <label for="point-12-y">Point 12 Y:</label>
-                                            <input type="range" id="point-12-y" min="0" max="150" value="65"> <br>
+                                            <input type="range" id="point-12-y" class="point-12-y" min="0" max="150"
+                                                value="65"> <br>
                                             <p class="badge badge-dark">Value: <span id="equalizer_value_12_Y"></span>
                                             </p>
                                         </div>
@@ -280,22 +313,19 @@
                             </div>
                         </div>
                     </div>
-                    <a onclick="reset()">
-                        <button type="reset">Reset</button>
-                    </a>
+                    <br>
+                    <button class="btn btn-warning float-right" type="reset">
+                        <a onclick="reset()">
+                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            Reset in here
+                        </a>
+                    </button>
+
                 </form>
             </div>
         </div>
+        <!-- </div> -->
     </div>
-
-    <script>
-        function reset() {
-            // alert("yolo");
-            
-
-        }
-    </script>
-
 
     <script src="equalizer_value_x.js"></script>
     <script src="equalizer_value_y.js"></script>
