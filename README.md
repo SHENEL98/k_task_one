@@ -1,5 +1,8 @@
 # kelony_task_one - Spider-map powered by equalizer
 
+![Screenshot (220)](https://user-images.githubusercontent.com/61915302/221435569-434ccdc1-afa8-4f80-890e-aa31b59c2fb5.png)
+
+
 Implement a 12-point spider-map fed by numerical csv data that changes shape through the use of
 buttons, graphically something like an equalizer for audio mixers. By moving the equalizer slider up
 and down or left and right, this should go to change the spider-map graphic (or whatever kind of
